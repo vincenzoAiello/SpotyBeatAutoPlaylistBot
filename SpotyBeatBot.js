@@ -2,7 +2,7 @@ const telegram = require("node-telegram-bot-api");
 const puppeteer = require("puppeteer");
 const chromiumBeat = require("./ChromiumBeat");
 
-let bot = new telegram("1251707040:AAGjEE0UO9fTEVgPjMFpTHcIup3jiwnRiP8", {
+let bot = new telegram("token", {
   polling: true,
 });
 
